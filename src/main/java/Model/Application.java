@@ -32,6 +32,11 @@ public class Application {
 
         System.out.println(name + " " + getWeight);
 
+        String catMeow = cat1.getMeow();
+        String name1 = cat2.getName();
+
+        System.out.println("Результат сравнения переменных " + cat2.equals(cat1));
 
     }
+
 }
